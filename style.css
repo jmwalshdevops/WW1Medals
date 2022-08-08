@@ -1,0 +1,410 @@
+.flexbox-container {
+  display: flex;
+  margin-top: 0;
+  padding-top: 0;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  padding: 8%;
+}
+.container2 {
+  display: flex;
+  flex-basis: 60%;
+}
+
+.container3 {
+  flex-basis: 25%;
+  padding: 4%;
+  background-color: black;
+}
+
+.container4 {
+  flex-basis: 50%;
+  padding: 5%;
+}
+
+.container7 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 3%;
+}
+
+.container8 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 5%;
+}
+
+.container9 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 2%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#small-image {
+  align-self: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  width: 70%;
+  height: auto;
+}
+
+#second-header {
+  align-self: flex-end;
+  padding-right: 5%;
+}
+
+.small-container {
+  padding-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+button,
+.button,
+.table-submit {
+  border: 1px solid black;
+  background-color: rgb(204, 204, 204);
+  border-radius: 5px;
+  font-weight: bold !important;
+  height: 40px;
+  padding: 5px;
+}
+
+button:hover,
+.button:hover,
+.table-submit:hover {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+}
+
+nav {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+/* REGISTER */
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top: 7%;
+}
+
+.form-register {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://render.fineartamerica.com/images/rendered/default/poster/8/7/break/images/artworkimages/medium/1/men-line-up-to-enlist-in-the-army-at-the-start-of-ww1-london-1914-color-added-2016-david-lee-guss.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registration-table {
+  background-color: white;
+  width: 60%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 8%;
+  padding-bottom: 1%;
+  border: 1px solid black;
+}
+
+#header {
+  padding-top: 0;
+  padding-bottom: 10%;
+  margin: 0;
+}
+
+#addendum {
+  padding-top: 12%;
+}
+
+.table-submit {
+  padding-top: 3%;
+}
+
+/* LOGIN */
+
+.form-login {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.egypttoday.com/siteimages/Larg/202108010333333333.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DATABASE SEARCH */
+
+.container5 {
+  flex-basis: 60%;
+  padding: 5%;
+}
+
+.container6 {
+  flex-basis: 40%;
+  padding: 2%;
+  border: 1px solid black;
+  margin: 5%;
+}
+
+td {
+  min-width: 30px;
+}
+
+/* LOGIN $ REGISTER */
+.warning {
+  color: red;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.userWelcome {
+  padding-left: 3%;
+  padding-top: 3%;
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 153, 153, 0) 0%,
+      rgba(255, 153, 153, 0) 45%,
+      rgb(255, 255, 255) 85%
+    ),
+    url("./homeBanner.jpeg");
+  background-position-y: center;
+  padding-bottom: 3%;
+  margin-top: 0;
+  min-height: 180px;
+}
+
+/* New Medal */
+
+.new-medal {
+  padding: 2%;
+}
+
+.required {
+  font-weight: 900;
+  color: red;
+  font-size: large;
+}
+
+.no-medals {
+  text-align: center;
+  border: 1px solid black;
+  padding: 3%;
+  vertical-align: middle;
+}
+
+.victory {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 153, 153, 0) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      rgb(255, 255, 255) 95%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 153, 153, 0) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      rgb(255, 255, 255) 95%
+    ),
+    url("./victoryMedal.png");
+  background-repeat: no-repeat;
+  background-size: 123px 190px;
+  background-position: center;
+  min-height: 190px;
+  border: 1px solid black;
+}
+
+.star {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 153, 153, 0) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      rgb(255, 255, 255) 95%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 153, 153, 0) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      rgb(255, 255, 255) 95%
+    ),
+    url("./1415star.png");
+  background-repeat: no-repeat;
+  background-size: 118px 190px;
+  background-position: center;
+  min-height: 190px;
+  border: 1px solid black;
+}
+
+.bwm {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 153, 153, 0) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      rgb(255, 255, 255) 95%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 153, 153, 0) 15%,
+      rgba(255, 255, 255, 0) 20%,
+      rgb(255, 255, 255) 95%
+    ),
+    url("./bwm.png");
+  background-repeat: no-repeat;
+  background-size: 113px 190px;
+  background-position: center;
+  min-height: 190px;
+}
+
+.home-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+  font-weight: 500;
+}
+
+.db-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.db2-table {
+  table-layout: fixed;
+  width: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.flexbox-container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 75%;
+}
+
+.label-notification {
+  padding-right: 2%;
+}
+
+.notification-table,
+.button-notification {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.notification-message {
+  margin-left: 2%;
+  margin-top: 2%;
+  border: solid 1px black;
+  width: 85%;
+  padding: 1%;
+}
+
+.found-banner {
+  padding-left: 3%;
+  padding-top: 3%;
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 153, 153, 0) 0%,
+      rgba(255, 153, 153, 0) 45%,
+      rgb(255, 255, 255) 85%
+    ),
+    url("./bannerimg.jpeg");
+  background-position-y: top;
+  padding-bottom: 3%;
+  margin-top: 0;
+  min-height: 180px;
+}
+
+.search-banner {
+  padding-left: 3%;
+  padding-top: 3%;
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 153, 153, 0) 0%,
+      rgba(255, 153, 153, 0) 45%,
+      rgb(255, 255, 255) 85%
+    ),
+    url("./medals1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  padding-bottom: 3%;
+  margin-top: 0;
+  background-color: black;
+  height: 180px;
+}
+
+td {
+  padding: 10px !important;
+}
+
+.initial-cell {
+  width: 50px !important;
+}
+
+table {
+}
+
+.table-tr {
+  border-bottom: 1px solid black !important;
+}
+
+.table-tr:hover {
+  background-color: rgba(195, 195, 195, 0.2);
+}
+
+.table-header {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  margin-bottom: 0;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
