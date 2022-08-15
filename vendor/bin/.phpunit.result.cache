@@ -1,1 +1,1 @@
-{"version":1,"defects":{"Example::testThatStringsMatch":4,"Example::testLoginFunctionality":4},"times":{"Example::testThatStringsMatch":0.041,"Example::testLoginFunctionality":20.023}}
+{"version":1,"defects":{"Example::testThatStringsMatch":4,"Example::testLoginFunctionality":4,"ExampleTest::testLoginFunctionality":4},"times":{"Example::testThatStringsMatch":0.041,"Example::testLoginFunctionality":20.023,"ExampleTest::testLoginFunctionality":0.096}}
